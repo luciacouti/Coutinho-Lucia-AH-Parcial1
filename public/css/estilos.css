@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  body {
+   --color-principal-fondo: #f7ebe1;
+   --color-principal-texto: #6d655f;
+   --box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+   --color-fondito: #d5b13d;
+   --color-higlight: #db7f5d !important;
+}
+
+  header {
+   background-color: var(--color-principal-fondo);
+   color: var(--color-fondito) !important;
+   text-align: center;
+   padding: 20px;
+}
+
+.navbar-brand{
+ color: var(--color-fondito) !important;
+}
+
+.navbar-nav .nav-item a.nav-link:hover{
+ color: var(--color-fondito) !important;
+}
+
+body{
+    font-family: 'Poppins', Courier, monospace;
+    color: rgb(88, 85, 85)
+}
+
+a{
+    color: rgb(88, 85, 85) !important;;
+}
+
+li{
+    list-style: none !important;;
+}
+h1{
+    font-size: 24px !important;
+    margin-top: 20px !important;
+   
+}
+
+h2{
+    font-size: 35px;
+    margin-top: 30px; 
+    /* text-align: center; */
+    
+    font-weight: 800;
+    color: #6d655f;
+}
+
+.list-group{
+    margin-top: 50px !important;
+}
+
+.tarjeta{
+    margin-top: 150px !important;
+
+}
+
+/* Path: public/css/estilos.css */
+.card{
+ border: none;
+ border-radius: 15px;
+ box-shadow: var(--box-shadow);
+ margin-bottom: 30px;
+}
+
+.card a{
+ text-decoration: none;
+}
+
+
+.card-title{
+ font-weight: 600;
+}
+
+.card-text{
+    font-size: 14px !important;
+}
+.card-text-p{
+    font-size: 10px !important;
+}
+
+.card-categoria{
+ color: var(--color-higlight) ;
+ font-weight: 400;
+ text-transform: capitalize;
+}
+
+.btn-vermas{
+ cursor: pointer;
+ background-color: #db7f5d !important;
+ color: white;
+ border: none;
+ opacity: 1;
+}
+
+.btn-vermas:hover{
+ opacity: 0.8;
+ color: white;
+}
+
+
+
+.navback{
+    border: solid 0.25px rgb(187, 187, 187) ;
+
+}
+.nav-a{
+    margin-left: 50px;
+}
+
+.stock{
+    color: red !important;
+    font-weight: bold !important;
+}
+
+.caja{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.titulo{
+    margin-top: 50px;
+    margin-left: 20px;
+}
